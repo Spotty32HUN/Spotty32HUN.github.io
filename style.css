@@ -18,10 +18,11 @@ table {
     margin-right: auto;
     color: black;
     background-color: aliceblue;
+    box-shadow: 10px 10px 15px black;
+    border-radius: 15px;
 }
 
 th, td {
-    border: 1px solid black;
     width: 35%;
 }
 
