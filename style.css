@@ -1,0 +1,10 @@
+@font-face {
+    src: url("poppins.regular.ttf");
+    font-family: Poppins;
+}
+
+body {
+    background-color: black;
+    color: aliceblue;
+    font-family: Poppins, Arial;
+}
