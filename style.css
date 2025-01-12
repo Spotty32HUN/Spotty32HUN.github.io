@@ -20,8 +20,12 @@ table {
     background-color: aliceblue;
 }
 
+th, td {
+    border: 1px solid black;
+    width: 35%;
+}
+
 #footer {
     position: absolute;
-    text-align: center;
     bottom: 0;
 }
