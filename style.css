@@ -11,23 +11,50 @@ body {
 }
 
 table {
-    margin-top: 25px;
-    margin-left: auto;
-    margin-right: auto;
     color: black;
     background-color: aliceblue;
-    box-shadow: 10px 10px 15px black;
+    box-shadow: 10px 10px 15px rgb(0, 0, 0);
     border-radius: 15px;
+}
+
+#tables {
+    padding-top: 25px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+caption {
+    color: aliceblue;
+    font-size: 25px;
+}
+
+#pvp, #tvp {
+    float: left;
+}
+
+#pvp {
+    padding-right: 5px;
+}
+
+#header h1 span:hover:after {
+    content: ' kys';
+}
+
+#header h1 span:after {
+    content: ' III';
+}
+
+table th a {
+    text-decoration: none;
+    color: black;
+    cursor: default;
 }
 
 table th, td {
     width: 200px;
 }
 
-table a:hover {
-    color: red;
-}
-
-table a {
-    text-decoration: none;
+table a img {
+    width: 30px;
 }
