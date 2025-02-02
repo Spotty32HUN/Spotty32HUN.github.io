@@ -18,7 +18,6 @@ table {
 }
 
 #tables {
-    padding-top: 25px;
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
@@ -29,7 +28,8 @@ caption {
     font-size: 25px;
 }
 
-#pvp, #tvp {
+#tables div {
+    padding-top: 50px;
     float: left;
 }
 
